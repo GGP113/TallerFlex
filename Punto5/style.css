@@ -1,0 +1,56 @@
+.container{
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+   
+   
+    background-color: rgb(241, 241, 241);
+    
+
+    height: 100vh;
+    
+}
+
+
+
+
+.container-1{
+
+    display: flex;
+    
+    
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+
+
+
+.container-1>*{
+
+ 
+    height: 20rem;
+}
+
+
+.panelNav, .panelcolumn{
+
+    width: 10rem;
+
+    background-color: rgb(187, 187, 187);
+}
+
+.panelTittle{
+    width: 20rem;
+    background-color: rgb(170, 170, 170);
+
+}
+
+p{
+
+    margin: 10px;
+
+}
+

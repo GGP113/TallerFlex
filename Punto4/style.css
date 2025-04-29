@@ -1,0 +1,33 @@
+
+
+
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly  ;
+
+
+
+    
+
+}
+
+.container>*{
+
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center ;
+}
+
+img{
+
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    border: 10px solid;
+    margin: 10px;
+    border-style: dotted;
+}

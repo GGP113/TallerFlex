@@ -1,0 +1,54 @@
+.container{
+
+    display: felx;
+    flex-direction: column;
+    gap: 5px;
+
+
+
+}
+
+.container>*{
+
+    
+    background-color: rgb(221, 221, 221);
+    margin: 5px;
+}
+
+.subContainer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.subContainer>*{
+
+    
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    
+    
+
+    
+
+
+}
+
+.entrada{
+    background-color: white;
+
+    margin-right: 10px;
+    padding: 5px;
+    
+}
+
+
+
+
+
+
